@@ -12,10 +12,3 @@ script:
   - webdriver-manager start &
   - sleep 5
 
-deploy:
-  provider: heroku
-  api_key:
-    secure: OBmxoLT9Ue5iIyKBqV2Z7wl44C/vKIqXg/6f+2iKvKnB+qZvVgPa60vObvVSdM2gFnkbaXeoC98BXdypf7j6v1217uig5nZbbmPUJPVqFHIpYBwTDGlhkQpPpwvISeb7QKf8TH4ZHFuE7cJr+0OcDhXY8Ez9v95rxiysvkz/wsQ=
-  app: drewmiller-net
-  on:
-    repo: itsdrewmiller/drewmiller.net
